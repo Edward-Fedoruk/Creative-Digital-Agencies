@@ -1,0 +1,136 @@
+/*==========  Desktop First  ==========*/
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	// BLOG
+
+	.blog
+		&-items
+			.item
+				h4
+					white-space: normal    
+	
+	// TEAM
+		
+	.team
+		.member
+			.table
+				padding: 12px   
+	 
+/* Large Devices, Desktops */
+@media only screen and (max-width : 992px)
+	// HEADER 
+	
+	.site-header 
+		.top-line 
+			.text-nav 
+				display: none
+			.social-nav
+				display: none
+		.burger
+			display: block
+	
+	// ABOUT-AGENCY
+
+	.about-agency
+		.feature
+			padding-top: 50px
+	
+	// NEWS
+
+	.news
+		.news-first, .news-second
+			.info
+				padding-right: 0 
+			img
+				position: unset
+				width: 100%
+				height: 100% 
+		.news-second
+			display: flex
+			flex-direction: column-reverse 
+	
+	// BLOG
+	
+	.blog
+		&-items
+			.item
+				padding-top: 100px
+				img
+					width: 50% 
+				p
+					width: 50%
+					margin: 10px auto 
+			 
+	// SECTION ACTION
+	
+	.action-block
+		padding-top: 20px
+	
+	// TEAM
+		
+	.team-members
+		padding-top: 0
+		.member
+			margin-top: 60px
+			img
+				width: 50%
+
+
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 768px)
+	// HEADER 
+	
+	.site-header 
+		.agencies-slogan
+			h1
+				font-size: 65px 
+			h2 
+				font-size: 15px
+				letter-spacing: 7px
+				margin-left: 18px 
+		
+	// ABOUT-AGENCY
+
+	.about-agency
+		.about-items
+			padding-top: 80px 
+	
+	// CONTACT
+	
+	.contact-area 
+		.user-info
+			margin-top: 20px
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 576px)
+	// BLOG
+
+	.blog
+		.item
+			p
+				width: 100% 
+		&-items
+			padding-top: 0
+	
+	// KEY 
+	.key
+		&-feature
+			.phone-img
+				img
+					height: 450px
+		
+	// TEAM
+
+	.team	
+		.head
+			span 
+				transform: translateY(-45%)
+			p
+				padding-top: 15%
+
+		
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+ // SECTION
